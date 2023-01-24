@@ -4,7 +4,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(
 		features = "src/featureFiles/Codingchallenge.feature"
-		,glue={"amazonSteps"}
+		,glue={"PageObject"}
 		)
 
 public class Runner extends AbstractTestNGCucumberTests{
